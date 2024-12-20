@@ -10,7 +10,7 @@ int main()
     printf("Inserisci il tuo cognome: ");
     scanf("%s", surname);
 
-    printf("\n\n\nBenvenuto, %s ", name);printf("%s\n\n", surname);
+    printf("\n\n\nBenvenuto, %s %s\n\n", name, surname);
 
     printf("Grazie per avver usato il nostro programma.\nTi auguriamo Buone Feste\n");
     printf("    *    \n   ***   \n  *****  \n ******* \n   ***   \n\n\n\n");
