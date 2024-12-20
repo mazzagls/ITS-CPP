@@ -10,5 +10,7 @@ int main()
 
     scanf("%s", name);
 
+    printf("\nHello\t%s\n\n\n", name);
+
     return 0;
 }
