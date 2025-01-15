@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <stdbool.h>
+
+//macros
+#define NEW_LINE printf("\n")
 
 int main()
 {
@@ -11,6 +15,8 @@ int main()
     scanf("%s", name);
 
     printf("\nHello\t%s\n\n\n", name);
+
+NEW_LINE, NEW_LINE, NEW_LINE, NEW_LINE, NEW_LINE, NEW_LINE, NEW_LINE, NEW_LINE;
 
     return 0;
 }
